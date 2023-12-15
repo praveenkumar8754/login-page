@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Form</title>
+
+    <!-- === CSS === -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- === Box Icon CSS === -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>Signup</header>
+
+      <p>please fill in this form to ceate an account!</p>
+
+      <form action="https://www.jrpranav.com" method="POST">
+        <!--First Name-->
+
+        <div class="field First Name-field">
+            <div class="input-field">
+              <input type="First Name" class="First Name" placeholder= "First Name" />
+            </div>
+  
+            <span class="error First Name-error">
+              <i class="bx bx-error-circle error-icon"></i>
+              <p class="error-text">Please enter a valid First Name</p>
+            </span>
+          </div>
+
+         <!--lastname-->
+
+          <div class="field Last Name-field">
+            <div class="input-field">
+              <input type="Last Name" class="Last Name" placeholder= "Last Name" />
+            </div>
+  
+            <span class="error Last Name-error">
+              <i class="bx bx-error-circle error-icon"></i>
+              <p class="error-text">Please enter a valid Last Name</p>
+            </span>
+          </div>
+
+
+        <!-- Email -->
+        <div class="field email-field">
+          <div class="input-field">
+            <input type="Email" class="Email" placeholder= "Email" />
+          </div>
+
+          <span class="error email-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">Please enter a valid email</p>
+          </span>
+        </div>
+
+        <!-- Create Password -->
+        <div class="field create-password">
+          <div class="input-field">
+            <input
+              type="password"
+              class="Password"
+              placeholder="Create-Password"
+            />
+            <i class="bx bx-hide show-hide"></i>
+          </div>
+
+          <span class="error password-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">
+              Please enter atleast 8 charatcer with number, symbol, small and
+              capital letter.
+            </p>
+          </span>
+        </div>
+
+        <!-- Confirm Password -->
+        <div class="field confirm-password">
+          <div class="input-field">
+            <input
+              type="password"
+              class="cPassword"
+              placeholder="Confirm Password"
+            />
+            <i class="bx bx-hide show-hide"></i>
+          </div>
+
+          <span class="error cPassword-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">Password don't match</p></span
+          >
+        </div>
+
+        <div><input type="checkbox">
+            <label for=""></label>I accept the terms of Use & Privacy Policy</div>
+
+
+
+        <!-- Button -->
+        <button class="button button2" onclick="">Signup</button>
+        
+      </form>
+        <div>
+            Already have an account!  <button class="button button2">Login here</button>
+            
+      </div>
+
+
+    </div>
+     </div>
+    
+
+    <!-- === Script === -->
+    <script src="./script.js"></script>
+  </body>
+</html>
